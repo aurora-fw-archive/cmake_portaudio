@@ -1,0 +1,6 @@
+message(STATUS "Loading cmake module: PortAudio")
+include(${CMAKE_MODULE_PORTAUDIO_DIR}/PortAudioConfig.cmake)
+if(NOT DEFINED AURORAFW_IS_BUILDING)
+	find_package(PortAudio)
+endif()
+install(FILES ${CMAKE_MODULE_PORTAUDIO_DIR}/PortAudioConfig.cmake DESTINATION share/cmake/PortAudio )
