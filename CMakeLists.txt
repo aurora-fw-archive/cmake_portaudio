@@ -15,7 +15,7 @@
 # will be met: https://www.gnu.org/licenses/lgpl-3.0.html.
 
 cmake_minimum_required(VERSION 3.1.0 FATAL_ERROR)
-project (cmake-module-freeimage)
+project (cmake-module-portaudio)
 
-set(CMAKE_MODULE_FREEIMAGE ${CMAKE_SOURCE_DIR})
-include(${CMAKE_MODULE_FREEIMAGE}/module.cmake)
+set(CMAKE_MODULE_PORTAUDIO ${CMAKE_SOURCE_DIR})
+include(${CMAKE_MODULE_PORTAUDIO}/module.cmake)
